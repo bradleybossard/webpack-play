@@ -1,4 +1,4 @@
-A most basic example of webpack compile
+A basic example using the html-webpack-plugin to automatically generate an .html file
 
 * `npm init --yes` to create blank package.json
 * npm install webpack html-webpack-plugin --save-dev
