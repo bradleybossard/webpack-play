@@ -9,15 +9,6 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
   },
-/*
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        warnings: false,
-      },
-    })
-  ]
-*/
   module: {
     loaders: [
       { test: /\.json$/, loader: 'json-loader' }
